@@ -44,7 +44,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 
-Daniel Queiroz - [Email](danieeldesoares@hotmail.com)
+Daniel Queiroz - [Linkedin](https://www.linkedin.com/in/daniel-sq/)
 
 Project Link: [https://github.com/usuariodaniel/simple-javascript-calculator](https://github.com/usuariodaniel/simple-javascript-calculator)
 
