@@ -55,18 +55,22 @@ document.getElementById('copyToClipboard').addEventListener('click', function (e
   }
 })
 
-const buttonTheme = document.getElementById('themeSwitcher').addEventListener('click', function () {
+const buttonTheme = document.getElementById('themeSwitcher')
+
+buttonTheme.addEventListener('click', function () {
   if (main.dataset.theme === 'dark') {
     root.style.setProperty('--bg-color', '#f1f5f9')
     root.style.setProperty('--border-color', '#aaa')
     root.style.setProperty('--font-color', '#212529')
     root.style.setProperty('--primary-color', '#26834a')
-    main.dataset.theme = 'light'  
+    main.dataset.theme = 'light'
+    buttonTheme.innerText = 'Dark'
   } else {
     root.style.setProperty('--bg-color', '#212529')
     root.style.setProperty('--border-color', '#666')
     root.style.setProperty('--font-color', '#f1f5f9')
     root.style.setProperty('--primary-color', '#4dff91')
-    main.dataset.theme = 'dark' 
+    main.dataset.theme = 'dark'
+    buttonTheme.innerText = 'Light'
   }
 })
